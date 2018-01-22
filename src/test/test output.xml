@@ -2,7 +2,6 @@
 <checkstyle version="5.7">
 <file name="C:\Users\Benjamin\Documents\GitHub\VIA-Checkstyle\src\test\test.vi">
 <error message="The icon for this VI is either the default icon or blank." severity="error" source="Default Icon"/>
-<error message="This VI has no VI Description." severity="warning" source="VI Documentation"/>
 <error message="This block diagram contains fewer than 1 comment." severity="warning" source="Comment Usage"/>
 <error message="This U32 wire has a segment that is less than the user-specified minimum pixel length (3)." severity="info" source="Wire Bends"/>
 <error message="This VI has debugging enabled, which can reduce performance slightly.  Consider disabling debugging in the VI Properties >> Execution dialog box for this VI. " severity="warning" source="Enabled Debugging"/>

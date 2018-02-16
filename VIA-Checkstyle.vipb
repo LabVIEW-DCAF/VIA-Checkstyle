@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-18 14:06:40" Modified_Date="2018-01-18 15:15:35" Creator="Lee Harding" Comments="" ID="5b8bbb674d1c2cc2b4e0a410fe18b145">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-01-18 14:06:40" Modified_Date="2018-02-16 12:05:21" Creator="Lee Harding" Comments="" ID="51606d5b610dbb9fb56f6d30ea54eddc">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_VIA_Checkstyle</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -34,7 +34,7 @@ The results take into account VI Analyzer test rankings and set Checkstyle sever
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>github.com/LabVIEW-DCAF/VIA-Checkstyle</URL>
-      <Release_Notes>Initial release.</Release_Notes>
+      <Release_Notes>-Fixed bug where special characters were not always properly escaped for XML</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -207,7 +207,7 @@ The results take into account VI Analyzer test rankings and set Checkstyle sever
         <Path>src\via xml report.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DCDEF8514E4E526D169225123E232ED8</GUID>
+      <GUID>893BEA173A3567B61B50E27D37FF148A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
